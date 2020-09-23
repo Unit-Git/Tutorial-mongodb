@@ -1,0 +1,5 @@
+db.<colletion>.find() = Mengambil semua document
+db.<colletion>.count() = Mengambil jumlah document
+db.<colletion>.drop()  = menghapus colletion
+db.<colletion>.totalSize() = Mengambil total ukuran colletion
+db.<colletion>.stats() = Mengambil informasi statistuk colletion
