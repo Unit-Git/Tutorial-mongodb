@@ -1,0 +1,41 @@
+# Data model
+
+1. Embedded
+struktur Dokumen - Embedded
+{
+  _id: <ObjectId>,
+  username: "unit1",
+  contact: {
+    phone: "+628-...-...-...",
+    email : "unit@gmail.com",
+  },
+  access: {
+    level: 5,
+    group: "dev",
+  }
+}
+
+1. Reference
+struktur Dokumen - Reference
+
+*user document
+{
+  _id: <ObjectId>,
+  username: "unit1"
+}
+
+*contact document
+{
+  _id: <ObjectId>,
+  user_id: <ObjectId>,
+  phone: "+628-...-...-...",
+  email : "unit@gmail.com",
+}
+
+*access document
+{
+  _id: <ObjectId>,
+  user_id: <ObjectId>,
+  level: 5,
+  group: "dev",
+}
