@@ -1,0 +1,14 @@
+#Tipe Data di BSON
+
+Double = double
+String = string
+Object = object
+Array = array
+Binary Data  = binData
+ObjectId = objectId
+Boolean = bool
+Date = date
+Null = null
+Regular Expression = regex
+Javascript = javascript
+Javascript with Scope = javascriptWithScope
