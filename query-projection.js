@@ -1,3 +1,11 @@
+/*
+$ = Limit array  hanya mengembalikan data pertama yang match dengan array operator
+$elemMatch = Limit array hanya mengemblikan data pertam yang match dengan kondisi query
+$meta = Mengemabalikan informasi metadata yang dapat dari setiap mathing document
+$slice = Mengontrol jumlah data yang ditampilkan pada array
+
+*/
+
 // select _id, name, category from products
 db.products.find(
   {

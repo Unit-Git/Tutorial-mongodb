@@ -1,4 +1,9 @@
 // Query Array
+/*
+$all  = Mencocokkan array yang mengandung elemen-elemen tertentu
+$elemMatch = Mengambil document jika tiap element array memenuhi kondisi tertentu
+$size = mengambil document jika ukuran array sesuai
+*/
 
 db.products.insertMany([
   {

@@ -1,13 +1,13 @@
 // * Comparison Operator
 
-// $eq = membandingkan value dengan value lain
-// $gt = membandingkan value lebih besar dari value lain
-// $gte = membandingkan value lebih besar atau sama dengan value lain
-// $lt = Membandingkan value lebih kecil dari value lain
-// $lte = membandingkan value lebih kecil atau sama dgn value lain
-// $in = membandingkan value dgn value yg ada di array
-// $nin = membandingkan value tidak ad dalam value yg ada di array
-// $ne = membandingkan value tidak sama dgn value lain
+// $eq (equal / "=") = membandingkan value dengan value lain
+// $gt (greater than / ">") = membandingkan value lebih besar dari value lain
+// $gte (greater than equal ">=") = membandingkan value lebih besar atau sama dengan value lain
+// $lt (less than / "<") = Membandingkan value lebih kecil dari value lain
+// $lte (less than equal / "<=") = membandingkan value lebih kecil atau sama dgn value lain
+// $in  = membandingkan value dgn value yg ada di array
+// $nin (not in / "!") = membandingkan value tidak ad dalam value yg ada di array
+// $ne (not equal / "!=" )= membandingkan value tidak sama dgn value lain
 
 /*
 * syntax
